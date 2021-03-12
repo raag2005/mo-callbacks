@@ -24,4 +24,4 @@
 
 ## Optimeret og ændret af OMikkel#3217
 
-## Kontakt mig på DK FiveM, hvis I ønsker support. https://fivem.dk/discord
+## Kontakt mig på DK FiveM, hvis I ønsker support. http://fivem.dk/discord
