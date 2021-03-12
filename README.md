@@ -25,5 +25,5 @@
 ## Optimeret og ændret af OMikkel#3217
 
 ## Support
-** Kontakt mig på DK FiveM, hvis der er fejl, mangler eller problemer. http://fivem.dk/discord **
-** Kun seriøse henvendelser. **
+**Kontakt mig på DK FiveM, hvis der er fejl, mangler eller problemer. http://fivem.dk/discord**
+**Kun seriøse henvendelser.**
