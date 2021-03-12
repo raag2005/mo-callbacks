@@ -1,4 +1,4 @@
-# Mohrs Callback functions
+# Mohr#6969 Callback functions
 
 ## Hvordan bruges det??
 
@@ -22,6 +22,6 @@
     end)
 ```
 
-## Med hjælp fra OMikkel
+## Optimeret og ændret af OMikkel#3217
 
-## Yder jeg support - Måske
+## Kontakt mig på DK FiveM, hvis I ønsker support. https://fivem.dk/discord
