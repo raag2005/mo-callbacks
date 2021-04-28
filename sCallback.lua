@@ -1,6 +1,6 @@
 sCallback = {
-    RegisterServerCallback = function(self, name, f)
-        self[name] = f
+    function sCallback:RegisterServerCallback(name, func)
+        self[name] = func
     end
 }
 RegisterServerEvent("mo-callback:TriggerServerCallback")
