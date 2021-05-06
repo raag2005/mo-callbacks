@@ -3,6 +3,7 @@ sCallback = {
         self[name] = func
     end
 }
+
 RegisterServerEvent("mo-callback:TriggerServerCallback")
 AddEventHandler("mo-callback:TriggerServerCallback", function(name, args)
     local source = source
