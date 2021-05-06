@@ -7,6 +7,7 @@ cCallback = {
         cb(self[name])
     end
 }
+
 RegisterNetEvent("mo-callback:RecieveServerCallback")
 AddEventHandler("mo-callback:RecieveServerCallback", function(name, data)
     cCallback[name] = data
