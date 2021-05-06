@@ -1,29 +1,29 @@
-# Mohr#6969 Callback functions
-edit af Raag2005
+# Mohr Callback functions
+### edit af Raag2005
 
-## Hvordan bruges det??
+## Changelog
+ - 😜 Added exports til server og client
+ - 😎 Ændrede lidt her og der
 
-### Client side
-
-**Brug et callback:**
+## Client side
 ```lua
+    local cCallback = exports["mo-callbacks"]
+
     local args, du, skal, bruge = "Dette ", "Callback ", "Er ", "Måske "
     cCallback:TriggerServerCallback("NavnPåMitCallback", {args, du, skal, bruge}, function(values)
         print(values) -- Values er resultatet fra serverside
     end)
 ```
 
-### Server side
-
-**Lav et nyt callback:**
+## Server side
 ```lua
+    local sCallback = exports["mo-callbacks"]
+
     sCallback:RegisterServerCallback("NavnPåMitCallback", function(args, du, skal, bruge)
-        local callbackText = args..du..skal..bruge.."Lavet af Mohr"
+        local callbackText = args .. du .. skal .. bruge .. " Lavet af Mohr"
         return callbackText
     end)
 ```
 
-## Optimeret og ændret af OMikkel#3217
-
 ## Support
-**Kontakt mig på DK FiveM, hvis der er fejl, mangler eller problemer. http://fivem.dk/discord - Kun seriøse henvendelser.**
+Kontakt Mohr eller Raag2005 på DK FiveM, hvis der er fejl, mangler eller problemer. *http://fivem.dk/discord* - Kun seriøse henvendelser.
